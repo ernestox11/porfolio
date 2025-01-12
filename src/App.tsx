@@ -1,13 +1,11 @@
+import Layout from './components/layout/Layout/Layout';
+
 function App() {
-
   return (
-    <>
-      <div>
-        Portfolio
-      </div>
-
-    </>
-  )
+    <Layout>
+      <div>Portfolio</div>
+    </Layout>
+  );
 }
 
-export default App
+export default App;
