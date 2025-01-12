@@ -1,0 +1,30 @@
+// Container layout using CSS Grid for modern browsers
+.layout {
+  min-height: 100vh;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+}
+
+// Header styles with responsive spacing
+.header {
+  position: sticky;
+  top: 0;
+  width: 100%;
+  z-index: 10;
+  background-color: var(--color-bg);
+}
+
+// Main content area with proper spacing
+.main {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+// Footer with proper alignment
+.footer {
+  width: 100%;
+  padding: 1rem;
+  background-color: var(--color-bg);
+}
